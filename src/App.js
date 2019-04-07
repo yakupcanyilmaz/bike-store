@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, HashRouter, Route } from "react-router-dom";
 import "./App.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,24 +16,14 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <Switch>
-          <Route
-            exact
-            path="https://yakupcanyilmaz.github.io/bike-store/"
-            component={ProductList}
-          />
-          <Route
-            exact
-            path="https://yakupcanyilmaz.github.io/bike-store/details"
-            component={Details}
-          />
-          <Route
-            exact
-            path="https://yakupcanyilmaz.github.io/bike-store/cart"
-            component={Cart}
-          />
-          <Route component={Default} />
-        </Switch>
+        <HashRouter>
+          <Switch>
+            <Route exact path="/" component={ProductList} />
+            <Route exact path="/details" component={Details} />
+            <Route exact path="/cart" component={Cart} />
+            <Route component={Default} />
+          </Switch>
+        </HashRouter>
         <Modal />
       </React.Fragment>
     );
