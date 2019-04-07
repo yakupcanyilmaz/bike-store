@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/bike-store/static/js/runtime~main.6d3fd4ae.js"
   },
   {
-    "revision": "0359bc3fbecbe52e774d",
-    "url": "/bike-store/static/js/main.bd2153fb.chunk.js"
+    "revision": "ad0f841d01af69cfaa1f",
+    "url": "/bike-store/static/js/main.1d6a4ce1.chunk.js"
   },
   {
-    "revision": "04fce18f856a8b1474bf",
-    "url": "/bike-store/static/js/2.38137c11.chunk.js"
+    "revision": "2cc38746bf51b765d6ec",
+    "url": "/bike-store/static/js/2.0f24e237.chunk.js"
   },
   {
-    "revision": "0359bc3fbecbe52e774d",
+    "revision": "ad0f841d01af69cfaa1f",
     "url": "/bike-store/static/css/main.83c79a25.chunk.css"
   },
   {
-    "revision": "04fce18f856a8b1474bf",
+    "revision": "2cc38746bf51b765d6ec",
     "url": "/bike-store/static/css/2.6bb05ef0.chunk.css"
   },
   {
-    "revision": "3f2e02b309c790c42bf6abb552360c36",
+    "revision": "a4f4067d6acc0f0cc2564272a277a798",
     "url": "/bike-store/index.html"
   }
 ];
